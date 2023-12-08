@@ -4,27 +4,32 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background-color: #f0f0f0;
-}
-.container {
-  text-align: center;
-}
-button {
-  background-color: #3498db;
-  color: #fff;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  border: none;
-  border-radius: 50%; /* شكل دائري */
-  position: relative;
-  overflow: hidden;
-}
-button img {
-  max-width: 100%;
-  height: auto;
-  transition: transform 0.3s ease;
-  border-radius: 50%; /* شكل دائري */
+  background-color: #1a1a1a; /* لون خلفية فاخر */
+  color: #fff; /* لون النص */
+  font-family: 'Arial', sans-serif; /* اختيار الخط النصي */
 }
 
+.container {
+  text-align: center;
+  padding: 50px;
+  border-radius: 15px;
+  background-color: #333; /* لون خلفية الحاوية */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* ظل الحاوية */
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #e94d58;
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1.5em;
+  cursor: pointer;
+  border: none;
+  border-radius: 30px;
+  outline: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ظل الزر */
 }
