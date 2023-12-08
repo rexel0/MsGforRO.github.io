@@ -1,35 +1,43 @@
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  background-color: #1a1a1a; /* لون خلفية فاخر */
-  color: #fff; /* لون النص */
-  font-family: 'Arial', sans-serif; /* اختيار الخط النصي */
+    margin: 0;
+    overflow: hidden;
 }
 
 .container {
-  text-align: center;
-  padding: 50px;
-  border-radius: 15px;
-  background-color: #333; /* لون خلفية الحاوية */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* ظل الحاوية */
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
 }
 
 h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
 button {
-  background-color: #e94d58;
-  color: #fff;
-  padding: 15px 30px;
-  font-size: 1.5em;
-  cursor: pointer;
-  border: none;
-  border-radius: 30px;
-  outline: none;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* ظل الزر */
+    background-color: #e94d58;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    cursor: pointer;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
